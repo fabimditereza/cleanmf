@@ -51,7 +51,7 @@ fi
 
 fullver=`cat /etc/version | sed 's/XW.v//' | sed 's/XM.v//' | sed 's/TI.v//'`
 
-if [ "$fullver" == "5.6.6" ]; then
+if [ "$fullver" == "5.6.9" ]; then
         echo "Atualizado... Done"
         exit
 fi
